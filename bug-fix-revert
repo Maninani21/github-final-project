@@ -1,1 +1,24 @@
-curl -s 'https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls?state=all&head=Maninani21:bug-fix-revert'
+$ curl -sS https://api.github.com/repos/Maninani21/github-final-project/pulls/1 | jq '{html_url, number, state, base: {ref: .base.ref, repo: .base.repo.full_name}, head: {ref: .head.ref, repo: .head.repo.full_name}, changed_files}'
+{
+  "html_url": "https://github.com/Maninani21/github-final-project/pull/1",
+  "number": 1,
+  "state": "open",
+  "base": {
+    "ref": "main",
+    "repo": "Maninani21/github-final-project"
+  },
+  "head": {
+    "ref": "bug-fix-revert",
+    "repo": "Maninani21/github-final-project"
+  },
+  "changed_files": 1
+}
+
+$ curl -sS https://api.github.com/repos/Maninani21/github-final-project | jq '{full_name, fork, parent: .parent.full_name}'
+{
+  "full_name": "Maninani21/github-final-project",
+  "fork": true,
+  "parent": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+}
+
+Note: PR #1 is within the fork. An upstream IBM pull request has not been created because the connected GitHub application lacks permission to submit it there.

@@ -59,8 +59,16 @@ representative at an online or offline event.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the community leaders responsible for enforcement at
-.
+reported privately to the repository maintainer through an available contact
+method on their GitHub profile: https://github.com/Maninani21.
+Do not post private or sensitive incident details in public GitHub issues.
+If a private contact method is unavailable, request a private reporting
+channel from the maintainer before sharing sensitive details.
+
+The maintainer will acknowledge reports, evaluate them impartially, and take
+proportionate action in line with the Enforcement Guidelines below. Reports
+will be handled as confidentially as practical, and sharing will be limited
+to those needed to review and address the concern.
 All complaints will be reviewed and investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the

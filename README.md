@@ -14,3 +14,7 @@ Output
 ```
 
 _© 2022 XYZ, Inc._
+
+## Running the calculator
+
+Run `bash simple-interest.sh`, then enter the principal, annual interest rate (percent), and time period in years. The script uses the formula `simple_interest = principal * rate * time / 100`.

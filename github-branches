@@ -1,0 +1,16 @@
+$ curl -sS https://api.github.com/repos/Maninani21/github-final-project/branches | jq '.[] | {name, sha: .commit.sha}'
+{
+  "name": "bug-fix-revert",
+  "sha": "346589a98114539d7b9b91206d8adb36600ab893"
+}
+{
+  "name": "bug-fix-typo",
+  "sha": "bafe902dfa9db5ac61ffb7cbdb5a9866d25b63cd"
+}
+{
+  "name": "main",
+  "sha": "04aa27d96786e85f02aff7a4feb740185aa851a7"
+}
+
+Branch statuses: main is the default branch; bug-fix-typo was merged into main at 04aa27d96786e85f02aff7a4feb740185aa851a7; bug-fix-revert has an open pull request #1 and is not yet merged.
+Verification source: https://api.github.com/repos/Maninani21/github-final-project/branches
